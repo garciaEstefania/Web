@@ -3,16 +3,9 @@ function show(){
 		menu_items.classList.toggle('show')
 	}
 	
-	function load() {
-		const btnMenu = document.getElementById('btn_menu')
-		
-	if(btnMenu){
-		console.log(btnMenu)
-		btnMenu.addEventlistener("click", show());
-		}
-	}
-
-
+function load() {
 	
+}
+
 
 document.addEventListener("DOMContentLoaded", load());
