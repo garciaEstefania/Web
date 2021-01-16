@@ -123,6 +123,7 @@
   color: #fff;
   font-family: "Soulwave";
   padding-bottom: 10px;
+  text-align: center;
 }
 .flavors{
   list-style: none;
@@ -226,4 +227,26 @@
 	.button.large a {
 		font-size: 1.35rem;
 	}
+}
+
+@media screen and ( max-width: 952px ){
+  .section-title{
+    font-size: 60px;
+  }
+  .img-sec-five{;
+    width: 325px;
+    height: 350px;
+    margin-top: 20px;
+  }
+  .div-sec-five{
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-sec-five-info{
+    align-items: center;
+    padding: 20px;
+  }
+  .div-sec-price{
+    margin-top: 80px;
+  }
 }

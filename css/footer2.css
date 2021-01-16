@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+
+@font-face {
+    font-family: Athena;
+    src: url('../fonts/Athena.ttf');
+}
+@font-face {
+    font-family: George;
+    src: url('../fonts/George.ttf');
+}
+footer{
+	width: 100%;
+	padding: 30px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	background-color: #F2F2F2;
+}
+footer h1, h2{
+	font-family: 'Raleway', Arial, sans-serif;
+	color: #DF0101;
+}
+footer h2{
+	margin-bottom: 20px;
+}
+
+footer h1 span{
+	font-family: "Athena";
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+.nav2, .social{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav2 li a{
+	text-decoration: none;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-weight: bold;
+	color: #FE9A2E;
+}
+.nav2 li{
+	padding-left: 0px;
+	margin: 25px; /*margin horizontal*/
+}
+
+.nav2 li a:hover{
+	color: #B45F04;
+}
+.social li{
+	padding-left: 0px;
+	margin: 10px; /*margin horizontal*/
+	transition: 0.5s;
+}
+.social li:hover{
+	transform: scale(1.1,1.1);
+}
+footer label{
+	margin-top: 20px;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-weight: bold;
+	color: #DF013A;
+}
+.row-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.row-container div{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 20px;
+}
+.row-container div p{
+	text-align: center;
+	margin-top: 15px;
+	font-family: "George";
+	font-weight: bold;
+}
+.link_page{
+	text-decoration: none;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-weight: bold;
+	color: #DF013A;
+}
+.link_page:hover{
+	color: #8A0829;
+}
+
+@media screen and (max-width: 952px){
+	
+}

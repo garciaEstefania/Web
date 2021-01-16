@@ -106,7 +106,7 @@
 			</section>
 		</div>
 	</div>
-	
+	<?php include ('../componentes/footer2.html') ?>
 <script>
 	var p = document.querySelector('#productos');
 	p.classList.add("active");
