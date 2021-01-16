@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Athena;
+    src: url('../fonts/Athena.ttf');
+}
+@font-face {
+    font-family: George;
+    src: url('../fonts/George.ttf');
+}
+.main-an-container{
+	padding-bottom: 20px!important; 
+}
+.an-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 20px 40px 20px; /*bottom, right, top, left*/
+	border-bottom: solid 1px #BDBDBD;
+}
+p{
+	font-family: "George";
+}
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+.hidden{
+	overflow: hidden;
+}
+.img{
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;           
+    margin-left: 0px;
+    transition: margin 1.5s;
+}
+.img:hover{
+    margin-left: -200px;  
+}
+.div-info{
+	display: flex;
+	flex: 50%;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 50px;
+}
+.border{
+	border-bottom: solid 1px #BDBDBD;
+}
+.enlace{
+	text-decoration: none;
+	color: white;
+	background-color: #FFBF00/*rgba(225,196,9,0.9)*/;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+	font-weight: bold;
+}
+.enlace:hover{
+	color:white;
+  	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+.enlace:focus{
+	background: rgba(225,196,9,0.8);
+}
+.link{
+	text-decoration: none;
+	color: red;
+}
+
+@media screen and (max-width: 952px){
+	.div-info{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 0px;
+		justify-content: center;
+	}
+	.div-column{
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+	}
+	p, h2{
+		text-align: center;
+	}
+}

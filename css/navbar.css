@@ -15,6 +15,7 @@
 }
 .top-bar{
 	padding-top: 10px;
+	background-color: #FFBF00;
 }
 .menu{
 	display: flex;
@@ -35,14 +36,15 @@
 .menu_items li a{
 	padding: 5px 15px; /*vertical-horizontal*/
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 18px;
 	display: flex;
-	color: #B40404;
-	font-family: "George"
+	color: #fff;
+	font-family: "George";
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 .menu_items li:hover, li.active{
- 	background-color: rgba(0,0,0,0.2);
- 	font-weight: bold;
+ 	background-color: rgba(0,0,0,0.1);
  	transition: 0.5s;
 }
 .menu_items a:hover{

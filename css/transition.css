@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 @font-face {
     font-family: Athena;
     src: url('../fonts/Athena.ttf');
@@ -19,77 +20,82 @@
 .main-section{
   height:84vh;
   display:flex;
-  align-items:center;
-  justify-content:center;
-  background-color: yellow;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4FA58;
 }
 .main-section h1{
-  font-family: "Athena";
-  font-weight: bold;
-  font-size: 25vw;
-  color: #FFF;
-  margin: 0px 20px 0px 20px;
-  padding-bottom: 100px;
-  letter-spacing: 5px;
-}
-.main-section div p{
   font-family: "George";
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 8vw;
   color: #FFF;
-  text-align: justify;
-  margin-right: 10px;
+  margin: 0px 20px 0px 20px;
+  letter-spacing: 1px;
 }
-.column{
-  margin-top:20px; 
+.main-section h3{
+  font-family: "George";
+  font-weight: bold;
+  color: #FA5858;
+  padding-bottom: 50px;
+  letter-spacing: 1px;
 }
-.btn_ver{
-  border-radius: 35px;
-  background-color: yellow;
-  border: solid 1px #fff;
+.div-btns{
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+}
+.div-btns button{
+  background-color: transparent;
+  border: solid 3px #fff;
   width: 15vw;
   height: 7.5vh;
   text-align: center;
   color: #fff;
-  font-size: 2vw;
-  font-family: "George"
+  font-size: 14px;
+  font-family: "George";
+  letter-spacing: 2px;
 }
 section {
   height:100vh;
   position:relative;
   display:flex;
+  flex-flow: column;
   align-items:center;
   justify-content:center;
 }
-section > div {
-  font-family:Helvetica,Sans-serif;
-  font-weight:bold;
-  font-size:8vw;
-  color:#FFF;
-  text-align:center;
-}
 
 .next {
-  position:absolute;
-  bottom:50%;
-  left:50%;
-  margin-left:-36px;
   cursor:pointer;
-  font-size:400%;
+  position: relative;
+ 
 }
 .next:after {
-  content:'▼';
+  content: url("../imagenes/Down.png");
+  height: 15px;
+  width: 15px;
+  top: 5px;
+  left: 50%;
+  position: absolute;
+  transform: scale(0.2);
 }
 
 .one {
-  background-color: #45CCFF;
+  background-color: #F5D0A9;
+  /*background-image: url("../imagenes/sabores1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;*/
 }
 .two {
-  background-color: #49E83E;
+  background-color: #E87B31;
 }
 .three {
   background-color: #EDDE05;
 }
 .four {
   background-color: #E84B30;
+}
+.five {
+  background-color: #ED820E;
 }

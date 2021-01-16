@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>El Sin Rival - Orgullo Santaneco</title>
 	<link rel="icon" href="../imagenes/icono.png" type="image/png">
@@ -30,21 +30,21 @@
 			</ol>
 			 <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img src="../imagenes/navidad.jpg" class="d-block w-100" alt="...">
+			      <img src="../imagenes/banner.jpg" class="d-block w-100" alt="...">
 			      <div class="carousel-caption d-none d-md-block">
 			        <h5>First slide label</h5>
 			        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 			      </div>
 			    </div>
 			    <div class="carousel-item">
-			      <img src="../imagenes/navidad.jpg" class="d-block w-100" alt="...">
+			      <img src="../imagenes/banner.jpg" class="d-block w-100" alt="...">
 			    <div class="carousel-caption d-none d-md-block">
 			        <h5>Second slide label</h5>
 			        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			    </div>
 			    </div>
 			    <div class="carousel-item">
-			      <img src="../imagenes/navidad.jpg" class="d-block w-100" alt="...">
+			      <img src="../imagenes/banner.jpg" class="d-block w-100" alt="...">
 			     <div class="carousel-caption d-none d-md-block">
 			        <h5>Third slide label</h5>
 			        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -60,11 +60,13 @@
 			    <span class="visually-hidden">Next</span>
 			  </a>
 			</div>
+		<!-- Swiper-->
 		<?php include('../componentes/swiper.html')?>
+		<!-- Anuncios aqui incluir seccion de trabaja con nosotros, franciquicias y un video de los dueños-->
+		<?php include('../componentes/anuncios.html')?>
 	</div>
 </div>
 <?php include('../componentes/footer.html')?>
-<script type="text/javascript" src="../js/main.js"></script>
 <script type="text/javascript" src="../js/popper.min.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
 </body>

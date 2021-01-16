@@ -12,15 +12,17 @@ header{
 	align-items: center;
 }
 header{
-	height:82vh;
-	display:flex;
+	height: 82vh;
+	display: flex;
 	flex-flow: column;
-	align-items:center; /*eje primario*/
-	justify-content:flex-start; /*eje secundario*/
+	align-items: center; /*eje primario*/
+	justify-content: flex-start; /*eje secundario*/
 	background-color: yellow;
 }
 header h1{
 	font-family: "Athena";
+	position: relative;
+	top: -30px;
 	font-weight: bold;
 	font-size: 25vw;
 	color: #FFF;
@@ -28,35 +30,37 @@ header h1{
 }
 header h3{
 	font-family: "George";
-	/*font-weight: bold;*/
+	letter-spacing: 2px;
 	color: #FFF;
+	position: relative;
+	top: -80px;
 }
 .btn_ver{
 	border-radius: 35px;
 	background-color: yellow;
-	border: solid 1px #fff;
+	border: solid 2px #fff;
 	width: 15vw;
 	height: 7.5vh;
 	text-align: center;
 	color: #fff;
 	font-size: 2vw;
-	font-family: "George"
+	font-family: "George";
 }
 .galery{
 	display: flex;
 	flex-flow: row wrap;
-	padding: 10px 20px;
-	background: linear-gradient(-180deg, #DF0101, #fff);
+	padding: 50px 50px; /*padding ariba-abajo (horizontal) del div*/
+	background: linear-gradient(50deg,  #FF0000, #FFFF00)/*linear-gradient(-180deg, #DF0101, #fff)*/;
 	justify-content: center;
 	align-items: center;
 }
 .column{
-	flex: 20%;
-	max-width: 20%;
-	padding: 0 4px;
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 10px;
 }
 .column img{
-	margin-top: 8px;
+	margin-top: 15px;
 	vertical-align: middle;
 	width: 100%;
 	filter: grayscale(100%);

@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right bottom, #8A0808 50%, #8A2908 50%);
+  background: linear-gradient(to right bottom, #FFF 50%, #FFF 50%);
 }
 
 /* ====================================
@@ -33,27 +33,27 @@ Home Slider
 }
 
 .swiper-image-one {
-  background-image: url("../imagenes/coco.jpg");
+  background-image: url("../imagenes/img1.jpg");
 }
 
 .swiper-image-two {
-  background-image: url(https://source.unsplash.com/Jy6luiLBsrk/1600x900);
+  background-image: url("../imagenes/produccion.jpg");
 }
 
 .swiper-image-three {
-  background-image: url(https://source.unsplash.com/sFLVTqNzG2I/1600x900);
+  background-image: url("../imagenes/barquillo.jpg");
 }
 
 .swiper-image-four {
-  background-image: url(https://source.unsplash.com/pj1jt4vBGZY/1600x900);
+  background-image: url("../imagenes/tradicion5.jpg");
 }
 
 .swiper-image-five {
-  background-image: url(https://source.unsplash.com/Jy6luiLBsrk/1600x900);
+  background-image: url("../imagenes/personal.jpg");
 }
 
 .swiper-image-six {
-  background-image: url(https://source.unsplash.com/bxCgan0J1Sg/1600x900);
+  background-image: url("../imagenes/img8.jpg");
 }
 
 .swiper-image {

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tiendas</title>
+	<title>Sucursales</title>
 	<link rel="icon" href="../imagenes/icono.png" type="image/png">
 	<link rel='stylesheet' type="text/css" id='bootstrap-css' href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/sucursales.css">
@@ -65,7 +65,6 @@
     </div>
 
 	<?php include('../componentes/footer.html')?>
-</body>
 <script>
 	var p = document.querySelector('#tiendas');
 	p.classList.add("active");
@@ -77,8 +76,8 @@
         window.scrollTo(0, 670);
     })
 </script>
-
 <script type="text/javascript" src="../js/sucursales.js"></script>
 <script type="text/javascript" src="../js/popper.min.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+</body>
 </html>

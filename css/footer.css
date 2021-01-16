@@ -86,7 +86,7 @@ body.tight .wrapper {
 	flex-flow: column;
 }
 .row-container:hover{
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.1);
     border-radius: 7px;
 }
 .row-container p:first-child, span{
