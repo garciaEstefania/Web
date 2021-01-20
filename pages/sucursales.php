@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,35 +32,99 @@
     		</header>
     		<section class="galery">
     			<div class="column">
-    				<img src="../imagenes/tiendas/central.jpg" alt="" data-img-mostrar="0">
-    				<img src="../imagenes/tiendas/central2.jpg" alt="" data-img-mostrar="1">
-    				<img src="../imagenes/tiendas/ivu.jpg" alt="" data-img-mostrar="2">
-                    <img src="../imagenes/tiendas/la25.jpg" alt="" data-img-mostrar="3">
-                    <img src="../imagenes/tiendas/sanBenito.jpg" alt="" data-img-mostrar="4">
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/central.jpg" alt="" data-img-mostrar="0">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+    				 <div class="img_container">
+    				    <img src="../imagenes/tiendas/central2.jpg" alt="" data-img-mostrar="1">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+    				    <img src="../imagenes/tiendas/ivu.jpg" alt="" data-img-mostrar="2">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/la25.jpg" alt="" data-img-mostrar="3">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/sanBenito.jpg" alt="" data-img-mostrar="4">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
     			</div>
+
     			<div class="column">
-    				<img src="../imagenes/tiendas/la31.jpg" alt="" data-img-mostrar="5">
-    				<img src="../imagenes/tiendas/palmar.jpg" alt="" data-img-mostrar="6">
-    				<img src="../imagenes/tiendas/matias.jpg" alt="" data-img-mostrar="7">
-                    <img src="../imagenes/tiendas/elCarmen.jpg" alt="" data-img-mostrar="8">
-                    <img src="../imagenes/tiendas/masferrer2.jpg" alt="" data-img-mostrar="9">
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/la31.jpg" alt="" data-img-mostrar="5">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/palmar.jpg" alt="" data-img-mostrar="6">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/matias.jpg" alt="" data-img-mostrar="7">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/elCarmen.jpg" alt="" data-img-mostrar="8">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                     <div class="img_container">
+                        <img src="../imagenes/tiendas/masferrer2.jpg" alt="" data-img-mostrar="9">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
     			</div>
+
     			<div class="column">
-                    <img src="../imagenes/tiendas/matias.jpg" alt="" data-img-mostrar="10">
-    				<img src="../imagenes/tiendas/ataco.jpg" alt="" data-img-mostrar="11">
-    				<img src="../imagenes/tiendas/escalon.jpg" alt="" data-img-mostrar="12">
-    				<img src="../imagenes/tiendas/tuscania.jpg" alt="" data-img-mostrar="13">
-                    <img src="../imagenes/tiendas/sanBenito2.jpg" alt="" data-img-mostrar="14">
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/matias.jpg" alt="" data-img-mostrar="10">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/ataco.jpg" alt="" data-img-mostrar="11">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/escalon.jpg" alt="" data-img-mostrar="12">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/tuscania.jpg" alt="" data-img-mostrar="13">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/sanBenito2.jpg" alt="" data-img-mostrar="14">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
     			</div>
+
     			<div class="column">
-    				<img src="../imagenes/tiendas/laSkina.jpg" alt="" data-img-mostrar="15">
-    				<img src="../imagenes/tiendas/lourdes.jpg" alt="" data-img-mostrar="16">
-    				<img src="../imagenes/tiendas/lourdes2.jpg" alt="" data-img-mostrar="17">
-                    <img src="../imagenes/tiendas/versalles.jpg" alt="" data-img-mostrar="18">
-                    <img src="../imagenes/tiendas/santaRosa.jpg" alt="" data-img-mostrar="19">
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/laSkina.jpg" alt="" data-img-mostrar="15">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/lourdes.jpg" alt="" data-img-mostrar="16">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/lourdes2.jpg" alt="" data-img-mostrar="17">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/versalles.jpg" alt="" data-img-mostrar="18">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
+                    <div class="img_container">
+                        <img src="../imagenes/tiendas/santaRosa.jpg" alt="" data-img-mostrar="19">
+                        <a target="blank" class="link_map" href="https://www.google.es/maps/place/EL+Sin+Rival/@13.6751316,-89.2834907,20.96z/data=!4m8!1m2!2m1!1sel+sin+rival!3m4!1s0x0:0x46ddb5567c89214d!8m2!3d13.6751804!4d-89.2834345"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></a>
+                    </div>
     			</div>
     		</section>
-
+                
+            </div>
     	</div>
     </div>
 
